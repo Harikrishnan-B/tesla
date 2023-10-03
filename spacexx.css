@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.logo{
+     border-image: url("SpaceX-logo.png");
+    padding-left:50px;
+    padding-top: 50px;   
+}
+
+
+
+ul{
+    list-style-type: none;
+  
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        padding: 0 30px;
+    }
+
+
+
+
+
+ul li{
+    display:inline-block;
+    cursor: pointer;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color:rgb(241, 237, 237);
+    
+
+}
+
+ul li a:hover{
+    outline:none;
+    text-decoration: underline;
+    padding: 10px;
+    text-decoration: none;
+    border:none;
+    font-weight: 500px;
+
+}
+
+
+.image1{
+    background-image: url("SpaceX-img6.webp");
+    height:900px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.image2{
+    background-image: url("SpaceX-img2.webp");
+    width:100%;
+    height:900px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.image3{
+    background-image: url("SpaceX-img3.webp"); 
+    width:100%;
+    height:900px;
+    background-size: cover;
+    background-position:center ;
+}
+
+
+.image4{
+    background-image: url("SpaceX-img4.webp");
+    width:100%;
+    height: 900px;
+    background-size:cover;
+    background-position: center;
+}
+
+
+.image5{
+    background-image:url("SpaceX-img5.webp");
+    width:100%;
+    height:900px;
+    background-size: cover;
+    background-position:center ;
+
+}
+
+.page{
+    width:100%;
+    height:50px;
+    margin-top:550px;
+    padding-left:50px;
+}
+.page1{
+
+        width:100%;
+        height:50px;
+        margin-top:600px;
+        padding-left:100px;
+}
+
+
+.button{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+
+
+}
+.footer{
+
+    display: flex;
+justify-content: center;
+width: 100%;
+height:50px;
+background-color: black;
+text-align: center;
+padding-top: 20px;
+
+
+}
+.divd a{
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: small;  
+}
+
+.shop{
+    color:white;
+    background-color:transparent;
+    padding:5px;
+    float:right;
+    margin-left:200px;
+}
